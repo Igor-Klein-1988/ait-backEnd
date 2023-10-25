@@ -1,0 +1,24 @@
+
+n
+java:S1192D"QDefine a constant instead of duplicating this literal "john@example.com" 3 times.(ç­Åú8…ğúş²1
+w
+java:S1192/"UDefine a constant instead of duplicating this literal "john.doe@example.com" 3 times.(Óäıÿÿÿÿ8…ğúş²1
+f
+java:S1192#"IDefine a constant instead of duplicating this literal "John Doe" 3 times.(ÎøªÔ8…ğúş²1
+h
+java:S1192F"FDefine a constant instead of duplicating this literal "Alice" 3 times.(—½‡ğøÿÿÿÿ8…ğúş²1
+t
+java:S1192F"RDefine a constant instead of duplicating this literal "alice@example.com" 3 times.(—½‡ğøÿÿÿÿ8…ğúş²1
+n
+java:S1192E"QDefine a constant instead of duplicating this literal "jane@example.com" 3 times.(ã¹©ı8…ğúş²1
+h
+java:S3252"KUse static access with "service.UserService" for "NULL_USER_ERROR_MESSAGE".(Øª“Ê8—ğúş²1
+q
+java:S3252)"OUse static access with "service.UserService" for "INVALID_EMAIL_ERROR_MESSAGE".(ì˜ÏŒüÿÿÿÿ8˜ğúş²1
+n
+java:S32526"QUse static access with "service.UserService" for "DUPLICATE_EMAIL_ERROR_MESSAGE".(ªÇİ“8šğúş²1
+F
+java:S1128	")Remove this unused import 'java.io.File'.(†Ğ¥Å8¡Íüş²1
+R
+java:S1128
+"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8¡Íüş²1
