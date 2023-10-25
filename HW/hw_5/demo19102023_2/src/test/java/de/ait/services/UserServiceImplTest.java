@@ -149,7 +149,7 @@ class UserServiceImplTest {
                     () -> Assertions.assertEquals(userId, existingUser.getId()),
                     () -> Assertions.assertEquals(newName, existingUser.getName()),
                     () -> Assertions.assertEquals(newEmail, existingUser.getEmail()),
-                    () -> Mockito.verify(repository, Mockito.times(1)).save(existingUser)
+                    () -> Mockito.verify(repository, Mockito.times(1)).update(existingUser)
             );
         }
 
