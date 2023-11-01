@@ -1,0 +1,12 @@
+1;jack@mail.com;jack@mail.com
+2;nick;nick@mail.com
+3;ann;ann@mail.com
+4;grag;grag@mail.com
+5;klod;klod@mail.com
+6;andy;andy@mail.com
+7;add;add@mail.com
+8;rrr;rrer@r.ru
+9;aaaa;4@sd.v
+10;Igor;Igor@mail.ru
+11;Dima;dima@mail.ru
+12;DD;dd@mail.ru

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<link th:href="@{/css/style.css}" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>addAccount</title>
+</head>
+<body>
+<h1>Accounts</h1>
+<button th:id="addAccount">addAccount</button>
+<table>
+    <tbody>
+    <tr>
+        <th>ID</th>
+        <th>IBAN</th>
+        <th>BALANCE</th>
+        <th></th>
+    </tr>
+    <tr th:each="account:${accounts}">
+        <td th:text="${account.id}"></td>
+        <td th:text="${account.iban}"></td>
+        <td th:text="${account.balance}"></td>
+        <td>
+            <form th:method="GET"
+                  th:action="@{/accounts/{id}(id=${account.id})}">
+                <button
+                        class="btn details"
+                        type="submit"
+                        name="details-account-btn"
+                        th:value="${account.id}"
+                >Details
+                </button>
+            </form>
+        </td>
+        <td>
+            <form th:method="DELETE"
+                  th:action="@{/accounts/{id}(id=${account.id})}">
+                <button
+                        class="btn delete"
+                        type="submit"
+                        name="delete-account-btn"
+                        th:value="${account.id}"
+                >Delete
+                </button>
+            </form>
+        </td>
+
+    </tr>
+    </tbody>
+</table>
+<a href="/add_account.html">add_account</a>
+<script th:src="@{/js/script.js}" type="text/javascript" defer></script>
+</body>
+</html>
