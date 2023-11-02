@@ -1,0 +1,17 @@
+POST http://localhost:8080/accounts
+Content-Type: application/json
+
+{
+  "iban": "DE 9999",
+  "balance": 456
+}
+
+
+###
+### GET ALL CITIES
+GET http://localhost:8080/accounts
+Accept: application/json
+
+
+
+
